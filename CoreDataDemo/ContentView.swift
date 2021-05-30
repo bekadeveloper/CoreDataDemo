@@ -21,11 +21,14 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(books) { book in
-                    Text(book.title ?? "unknown")
+                    VStack(alignment: .leading) {
+                        Text(book.title ?? "unknown")
+                        Text(book.author ?? "unknown").font(.caption).fontWeight(.semibold)
+                    }
                 }
                 .onDelete(perform: deleteItems)
             }
-            .navigationBarTitle(Text("Books in Core Data"))
+            .navigationBarTitle(Text("Books in CoreData"))
             .navigationBarItems(leading: Button(action: { isAddingBook.toggle() }) {
                 Image(systemName: "plus.circle.fill")
             }, trailing: EditButton())
