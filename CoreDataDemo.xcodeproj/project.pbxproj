@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E935F25F266400B8008C1775 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935F25E266400B8008C1775 /* AddBookView.swift */; };
 		E94FC0CC26629BED001D1EB7 /* CoreDataDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94FC0CB26629BED001D1EB7 /* CoreDataDemoApp.swift */; };
 		E94FC0CE26629BED001D1EB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94FC0CD26629BED001D1EB7 /* ContentView.swift */; };
 		E94FC0D026629BEF001D1EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94FC0CF26629BEF001D1EB7 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E935F25E266400B8008C1775 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		E94FC0C826629BED001D1EB7 /* CoreDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E94FC0CB26629BED001D1EB7 /* CoreDataDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDemoApp.swift; sourceTree = "<group>"; };
 		E94FC0CD26629BED001D1EB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				E94FC0CB26629BED001D1EB7 /* CoreDataDemoApp.swift */,
 				E94FC0CD26629BED001D1EB7 /* ContentView.swift */,
+				E935F25E266400B8008C1775 /* AddBookView.swift */,
 				E94FC0CF26629BEF001D1EB7 /* Assets.xcassets */,
 				E94FC0D426629BEF001D1EB7 /* Persistence.swift */,
 				E94FC0D926629BEF001D1EB7 /* Info.plist */,
@@ -148,6 +151,7 @@
 				E94FC0D826629BEF001D1EB7 /* CoreDataDemo.xcdatamodeld in Sources */,
 				E94FC0CE26629BED001D1EB7 /* ContentView.swift in Sources */,
 				E94FC0CC26629BED001D1EB7 /* CoreDataDemoApp.swift in Sources */,
+				E935F25F266400B8008C1775 /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
